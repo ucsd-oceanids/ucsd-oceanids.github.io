@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title></title>
+<!-- #EndEditable -->
+<link href="styles/style3.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+.style3 {
+	color: #8B0000;
+	text-decoration: underline;
+}
+.auto-style1 {
+	color: #880000;
+}
+</style>
+</head>
+
+<body style="position: relative">
+
+<!-- Begin Container -->
+<div id="container" style="position: static; width: 846px">
+	<!-- Begin Masthead -->
+	<div id="masthead" style="width: 656px">
+		<img alt="Oceanids Logo bw" height="116" src="oceanids_wave_black_new.png" style="float: right" width="396" /></div>
+	<!-- End Masthead -->
+	<!-- Begin iMenu -->
+	<div id="navigation" class="style1">
+		<ul>
+			<li><a href="default.html">Home</a></li>
+			<li></li>
+			<li><a href="interest/interestgroups.htm">Interest Groups</a></li>
+			<li><a href="newsletters/newsletter.htm">Newsletter</a></li>
+			<li><a href="calendar/calendar.htm">Calendar</a></li>
+			<li><a href="Sounding%20Board/soundingboard.htm">Sounding Board</a></li>
+			<li></li>
+			<li><a href="Board/Board_Members.html">Board Members</a></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li><a href="links/links.htm">Links</a></li>
+			<li class="auto-style1"><strong><a href="Giving/Giving.html">Giving</a></strong></li>
+		</ul>
+	</div>
+	<!-- End iMenu -->
+	<!-- Begin Left Column -->
+	<div id="column_l" style="left: 0px; top: 0px; width: 803px">
+		<!-- #BeginEditable "content" -->
+		<h2 style="width: 629px; height: 41px">Headline 2</h2>
+		<p>insert content here</p>
+		<p>&nbsp;</p>
+		<h3>Headline 3</h3>
+		<p>insert content here</p>
+		<p>&nbsp;</p>
+		<!-- #EndEditable --></div>
+	<!-- End Left Column -->
+	<!-- Begin Right Column -->
+	<!-- End Right Column -->
+	<!-- Begin Footer -->
+	<div id="footer" style="width: 100%">
+		<p><a href="default.html">Home</a> | 
+		<a href="interest/interestgroups.htm">I<span class="style3">nterest 
+		Groups</span></a> 
+		| <a href="newsletters/newsletter.htm">N<span class="style3">ewsletter</span></a> |
+		<a href="calendar/calendar.htm">C<span class="style3">alendar</span></a> |
+		<a href="Sounding%20Board/soundingboard.htm">S<span class="style3">ounding 
+		Board</span></a> | <a href="Board/Board_Members.html">B<span class="style3">oard 
+		Members</span></a> |<a href="links/links.htm">Links</a></p>
+	</div>
+	<!-- End Footer --></div>
+<!-- End Container -->
+
+</body>
+
+</html>

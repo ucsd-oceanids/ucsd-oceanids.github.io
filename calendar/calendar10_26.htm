@@ -1,0 +1,585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "../master.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Calendar</title>
+<style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.style5 {
+	font-size: xx-small;
+}
+.style7 {
+	font-size: medium;
+}
+.style16 {
+	border: 1px solid #336699;
+}
+.style18 {
+	border: 1px solid #336699;
+	text-align: center;
+	background-color: #DDEEFF;
+}
+.style20 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	padding: 1px 4px;
+}
+.style21 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	padding: 1px 4px;
+	text-align: center;
+}
+.style24 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.style25 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+}
+.style27 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-bottom: 1px solid #336699;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+}
+.style28 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.style29 {
+	border: 1px solid #336699;
+	text-align: center;
+	font-size: small;
+	background-color: #DDEEFF;
+}
+.style30 {
+	font-size: small;
+}
+.style34 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: small;
+}
+.style37 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #8B0000;
+}
+.style38 {
+	color: #800000;
+}
+.style39 {
+	color: #000000;
+}
+.style40 {
+	font-size: small;
+	font-family: "Times New Roman";
+	color: black;
+	margin: 2px 0in;
+}
+.style41 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style43 {
+	font-family: Verdana;
+	font-size: small;
+}
+.style44 {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.style45 {
+	font-family: Verdana;
+}
+.style46 {
+	font-size: 12.0pt;
+	font-family: Verdana;
+	color: black;
+	margin: 2px 0in;
+}
+.style47 {
+	font-family: Verdana;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.style48 {
+	color: #0000FF;
+}
+.style49 {
+	border-left: 1px solid #0000FF;
+	border-right: 1px solid #0000FF;
+	border-top: 1px solid #0000FF;
+	padding: 1px 4px;
+	color: #0000FF;
+}
+.style50 {
+	border-bottom: 1px solid #0000FF;
+	border-left: 1px solid #0000FF;
+	border-right: 1px solid #0000FF;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: medium;
+	border-top-color: #336699;
+	border-top-width: 1px;
+}
+.style51 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	font-size: small;
+}
+.style52 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-bottom: 1px solid #336699;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: medium;
+}
+.style56 {
+	color: #000000;
+	font-family: Verdana;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.style57 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: x-small;
+}
+.style58 {
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: medium;
+}
+.style60 {
+	border-left: 1px solid #0000FF;
+	border-right: 1px solid #0000FF;
+	border-top: 1px solid #0000FF;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: small;
+}
+.style61 {
+	border-left: 1px solid #0000FF;
+	border-right: 1px solid #0000FF;
+	border-top: 1px solid #0000FF;
+	padding: 1px 4px;
+}
+.style62 {
+	border-left: 1px solid #0000FF;
+	border-right: 1px solid #0000FF;
+	border-top: 1px solid #0000FF;
+}
+.style63 {
+	border-left: 1px solid #0000FF;
+	border-right: 1px solid #0000FF;
+	border-top: 1px solid #0000FF;
+	padding: 1px 4px;
+	text-align: center;
+}
+.style64 {
+	font-family: Verdana;
+	color: black;
+	margin: 2px 0in;
+}
+</style>
+<!-- #EndEditable -->
+<link href="../styles/style3.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+<style type="text/css">
+
+.style1 {
+	text-align: center;
+}
+.style3 {
+	color: #8B0000;
+	text-decoration: underline;
+}
+.auto-style1 {
+	color: #880000;
+}
+</style>
+</head>
+
+<body style="position: relative">
+
+<!-- Begin Container -->
+<div id="container" style="position: static; width: 846px">
+	<!-- Begin Masthead -->
+	<div id="masthead" style="width: 656px">
+		<img alt="Oceanids Logo bw" height="116" src="../oceanids_wave_black_new.png" style="float: right" width="396" /></div>
+	<!-- End Masthead -->
+	<!-- Begin iMenu -->
+	<div id="navigation" class="style1">
+		<ul>
+			<li><a href="../default.html">Home</a></li>
+			<li></li>
+			<li><a href="../interest/interestgroups.htm">Interest Groups</a></li>
+			<li><a href="../newsletters/newsletter.htm">Newsletter</a></li>
+			<li><a href="calendar.htm">Calendar</a></li>
+			<li><a href="../Sounding%20Board/soundingboard.htm">Sounding Board</a></li>
+			<li></li>
+			<li><a href="../Board/Board_Members.html">Board Members</a></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li><a href="../links/links.htm">Links</a></li>
+			<li class="auto-style1"><strong><a href="../Giving/Giving.html">Giving</a></strong></li>
+		</ul>
+	</div>
+	<!-- End iMenu -->
+	<!-- Begin Left Column -->
+	<div id="column_l" style="left: 0px; top: 0px; width: 803px">
+		<!-- #BeginEditable "content" -->
+		<h2 class="style1">October 2026</h2>
+		<ul>
+			<li>
+			<p class="style37"><em><strong><a href="calendar.htm">Return to 
+			main calendar page</a></strong></em></p>
+			</li>
+		</ul>
+		<span class="style7">
+		<table style="width: 100%" align="center" cellpadding="0" cellspacing="0" class="style16">
+			<tr>
+				<td class="style29" style="width: 78px">
+				<p class="style28"><strong>Sun</strong></p>
+				</td>
+				<td class="style18" style="width: 78px">
+				<p class="style28"><strong>Mon</strong></p>
+				</td>
+				<td class="style18" style="width: 81px">
+				<p class="style28"><strong>Tues</strong></p>
+				</td>
+				<td class="style18" style="width: 83px">
+				<p class="style28"><strong>Wed</strong></p>
+				</td>
+				<td class="style18" style="width: 79px">
+				<p class="style28"><strong>Thur</strong></p>
+				</td>
+				<td class="style18" style="width: 78px">
+				<p class="style28"><strong>Fri</strong></p>
+				</td>
+				<td class="style18" style="width: 78px">
+				<p class="style28"><strong>Sat</strong></span></p>
+				</td>
+			</tr>
+			<tr class="style5">
+				<td class="style34" style="width: 78px"><br />
+				<br />
+				<br />
+				</td>
+				<td class="style34" style="width: 78px">&nbsp;</td>
+		</span>
+				<td class="style60" style="width: 81px">
+				&nbsp;</td>
+		<span class="style7">
+				<td class="style63" style="width: 83px"><span class="style7">
+				<span class="style30">
+				<br class="style61" />
+				</span></span></td>
+				<td class="style60" style="width: 79px">
+				<span class="style48"><br />
+				Board  
+				<br class="style49" />
+				Meeting<br class="style62" />
+				</span>
+				</td>
+				<td class="style60" style="width: 78px">&nbsp;</td>
+				<td class="style60" style="width: 78px">&nbsp;</td>
+			</tr>
+			<tr class="style5">
+				<td class="style58" style="width: 78px"><strong></strong></td>
+				<td class="style58" style="width: 78px"><strong></strong></td>
+				<td class="style50" style="width: 83px">&nbsp;</td>
+				<td class="style50" style="width: 79px"><strong></strong></td>
+				<td class="style50" style="width: 78px"><strong>1</strong></td>
+				<td class="style50" style="width: 78px"><strong>2</strong></td>
+				<td class="style50" style="width: 78px"><strong>3</strong></td>
+			</tr>
+			<tr class="style5">
+				<td class="style34" style="width: 78px">&nbsp;</td>
+				<td class="style34" style="width: 78px">
+		<span class="style30">
+				<br />
+				</span><strong><br class="style20" />
+				</strong>
+				</td>
+				<td class="style34" style="width: 81px">
+		<span class="style7">
+		<span class="style30">
+				<a href="mailto:jrblmenzel@sbcglobal.net">Day 
+				<br class="style25" />
+				Bridge</a></span></span></td>
+				<td class="style34" style="width: 83px">
+				<span class="style7">
+				<span class="style30">
+				<br />
+				<a href="mailto:lynnjahn@gmail.com">Wed Crafts</a><br />
+				<a href="mailto:af.saillot@gmail.com">Cafe Francais</a></span></span><br />
+				</td>
+				<td class="style34" style="width: 79px">
+		<span class="style30">
+				<a href="mailto:vlindblade@mzc.com">Cafe<br class="style61" />
+				Espanol</a></span><br />
+				<br />
+				</td>
+				<td class="style34" style="width: 78px"><br class="style20" />
+				<br class="style20" />
+&nbsp;<br class="style20" />
+				</td>
+				<td class="style34" style="width: 78px">
+				&nbsp;</td>
+			</tr>
+			<tr class="style5">
+				<td class="style52" style="width: 78px">
+				<strong>4</strong></td>
+				<td class="style52" style="width: 81px">
+				<strong>5</strong></td>
+				<td class="style52" style="width: 83px">
+				<strong>6</strong></td>
+				<td class="style52" style="width: 79px">
+				<strong>7</strong></td>
+				<td class="style52" style="width: 78px">
+				<strong>8</strong></td>
+				<td class="style52" style="width: 78px">
+				<strong>9</strong></td>
+				<td class="style52" style="width: 78px">
+				<strong>10</strong></td>
+			</tr>
+			<tr class="style5">
+				<td class="style21" style="width: 78px">&nbsp;<br class="style20" />
+				<br class="style20" />
+&nbsp;<span class="style7"><span class="style30"><a href="mailto:jbunch@ucsd.edu">Cinema<br class="style25" />
+				Soiree</a> </span></span><br class="style20" />
+				<span class="style30"><br />
+				</span></td>
+				<td class="style34" style="width: 78px">
+				<a href="mailto:lizwinant@gmail.com">Birders</a></td>
+				<td class="style34" style="width: 81px">
+				<span class="style7">
+				<span class="style30">
+				Book Group </span>
+		</span></td>
+				<td class="style21" style="width: 83px"><br />
+				<span class="style30">
+				<a href="mailto:lynnjahn@gmail.com">Wed Craft<span class="style7">s</span></a><br />
+		</span>
+				</td>
+		</span>
+				<td class="style34" style="width: 79px">
+				<a href="mailto:bbank@ucsd.edu">Tapas</a></td>
+		<span class="style7">
+				<td class="style21" style="width: 78px">
+				&nbsp;</td>
+				<td class="style21" style="width: 78px">
+				<br class="style20" />
+				</td>
+			</tr>
+			<tr class="style5">
+				<td class="style27" style="width: 78px">
+				11</td>
+				<td class="style27" style="width: 81px">
+				12</td>
+				<td class="style27" style="width: 83px">
+				13</td>
+				<td class="style27" style="width: 79px">
+				14</td>
+				<td class="style27" style="width: 78px">
+				15</td>
+				<td class="style27" style="width: 78px">
+				16</td>
+				<td class="style27" style="width: 78px">
+				17</td>
+			</tr>
+			<tr class="style5">
+				<td class="style21" style="width: 78px"><br />
+				</td>
+				<td class="style21" style="width: 78px">
+				<br class="style25" />
+				</td>
+				<td class="style34" style="width: 81px">
+		<span class="style7">
+		<span class="style30">
+				<a href="mailto:jrblmenzel@cox.net">Day 
+				<br class="style25" />
+				Bridge</a><br />
+				<a href="mailto:enrightroswitha@gmail.com">Kaffeeklatsch</a></span></span></td>
+				<td class="style21" style="width: 83px">
+				<span class="style30">
+				<br />
+				<a href="mailto:lynnjahn@gmail.com">Wed Crafts</a><br />
+				</span>
+				<br />
+				</td>
+				<td class="style57" style="width: 79px">&nbsp;</td>
+				<td class="style21" style="width: 78px">&nbsp;</td>
+				<td class="style21" style="width: 78px">
+				&nbsp;</td>
+			</tr>
+			<tr class="style5">
+				<td class="style27" style="width: 78px">18</td>
+				<td class="style27" style="width: 81px">19</td>
+				<td class="style27" style="width: 83px">20</td>
+				<td class="style27" style="width: 79px">21</td>
+				<td class="style27" style="width: 78px">22</td>
+				<td class="style27" style="width: 78px">23</td>
+				<td class="style27" style="width: 78px">24</td>
+			</tr>
+			<tr class="style5">
+				<td class="style21" style="width: 78px">
+		<span class="style7">
+				<br />
+				<span class="style30">
+				<a href="mailto:jvacq@sbcglobal.net">Piano <br class="style25" />
+				Soiree</a><br />
+				</span>
+		</span>
+				</td>
+				<td class="style21" style="width: 78px">&nbsp;<br class="style25" />
+				&nbsp;<br class="style51" />
+				</td>
+				<td class="style34" style="width: 81px">
+				&nbsp;</td>
+				<td class="style21" style="width: 83px">
+				<span class="style7">
+				<span class="style30"><a href="mailto:lynnjahn@gmail.com"><br />
+				Wed Crafts</a><br />
+				</span></td>
+				<td class="style21" style="width: 79px"><br class="style25" />
+				</td>
+				<td class="style21" style="width: 78px">&nbsp;<br class="style25" />
+				<br class="style25" />
+				<br class="style25" />
+				</td>
+				<td class="style21" style="width: 78px"><br class="style25" />
+				</td>
+			</tr>
+			<tr class="style5">
+				<td class="style27" style="width: 78px">
+				25</td>
+				<td class="style27" style="width: 81px">
+				26</td>
+				<td class="style27" style="width: 83px">
+				27</td>
+				<td class="style27" style="width: 79px">
+				28</td>
+				<td class="style27" style="width: 78px">
+				29</td>
+				<td class="style27" style="width: 78px">
+				30</td>
+				<td class="style27" style="width: 78px">
+				31</td>
+			</tr>
+			</table>
+		<p class="style38">
+		</span></p>
+		<p class="style44"><span class="style45"><strong>AVI Set Birding:&nbsp;
+		</strong>Contacts:&nbsp; <a href="mailto:lizwinant@gmail.com">L<span class="style3">iz 
+		Winant</span></a></span></p>
+		<p class="style46"><strong><span class="style30">Book Group:</span></strong><span class="style30">&nbsp; 
+		9:30am,&nbsp; Contacts:&nbsp; <a href="mailto:janetrgoff@hotmail.com">Janet Goff</a>, 
+		<a href="mailto:lizwinant@gmail.com">Liz Winant</a></span></p>
+		<p class="style47"><b style="mso-bidi-font-weight:normal">Café Espanol:</b><span style="mso-spacerun:yes">&nbsp;
+		2</span> – 3:30pm, Contact:<span style="mso-spacerun:yes">&nbsp;
+		</span><a href="mailto:vlindblade@mzc.com">Vicky Lindblade</a></p>
+		<span class="style45">
+		<p class="style24"><b style="mso-bidi-font-weight:normal">Café Francais:</b> 
+		12 -3pm, Contact:<span style="mso-spacerun:yes">&nbsp; 
+		<a href="mailto:af.saillot@gmail.com"><span class="style3">Anne-France 
+		Saillot</span></a></span></p>
+		<p class="style24"><strong>Cellphone Photography</strong>:&nbsp;
+		<a href="mailto:kspaar@outlook.com">Kim Signoret-Paar</a></p>
+		</span><span class="style41">
+		<p class="style24"></span><strong>Cinema Soiree:&nbsp; </strong>Contact:&nbsp;
+		<a href="mailto:jbunch@ucsd.edu">J<span class="style3">im Bunch</span></a></p>
+		<p class="style40"><st1:place w:st="on"><span class="style45"><st1:PlaceName
+ w:st="on"><strong>Day</strong></st1:PlaceName></span><strong><span class="style41">
+		</span><span class="style45"> <st1:PlaceType w:st="on">Bridge</st1:PlaceType></span></strong></st1:place><span class="style45"><strong>:&nbsp;
+		</strong>10am - 3pm, Contact:&nbsp; <a href="mailto:jrblmenzel@cox.net">Beate Menzel</a></span><o:p></o:p></p>
+		<p class="style24"><strong>Moveable Feast II:&nbsp; </strong>&nbsp; 
+		Contact:&nbsp; <a href="mailto:marycutchin@yahoo.com">Mary Cutchin</a></p>
+		<p class="style47"><b style="mso-bidi-font-weight:normal">Piano Soiree:</b><span style="mso-spacerun:yes">&nbsp;
+		</span>&nbsp;Contact: <a href="mailto:jvacq@sbcglobal.net">
+		Judy Vacquier</a></p>
+		<p class="style47"><strong>Sounding Board:&nbsp; </strong>12pm,TBD</p>
+		<span class="style45">
+		<p class="style24"><strong>Wednesday Crafts: </strong>10am-12pm; 
+		Contacts:&nbsp; <a href="mailto:gbsham@gmail.com">Georgina Sham</a>,
+		<a href="mailto:lynnjahn@gmail.com">Lynn Jahn</a></p>
+		</span>
+		<p class="style24">&nbsp;</p>
+		<p class="style24"><strong>Newsletter Submissions:&nbsp; </strong>Send 
+		to <a href="mailto:enrightroswitha@gmail.com">Roswitha Enright</a></p>
+		<p class="style24">&nbsp;</p>
+		<p class="style24">&nbsp;</p>
+		<p class="style24">&nbsp;</p>
+		<p class="style39">&nbsp;</p>
+		<span class="style7">
+				<p class="style38">&nbsp;</p>
+		</span>
+		<!-- #EndEditable --></div>
+	<!-- End Left Column -->
+	<!-- Begin Right Column -->
+	<!-- End Right Column -->
+	<!-- Begin Footer -->
+	<div id="footer" style="width: 100%">
+		<p><a href="../default.html">Home</a> | 
+		<a href="../interest/interestgroups.htm">I<span class="style3">nterest 
+		Groups</span></a> 
+		| <a href="../newsletters/newsletter.htm">N<span class="style3">ewsletter</span></a> |
+		<a href="calendar.htm">C<span class="style3">alendar</span></a> |
+		<a href="../Sounding%20Board/soundingboard.htm">S<span class="style3">ounding 
+		Board</span></a> | <a href="../Board/Board_Members.html">B<span class="style3">oard 
+		Members</span></a> |<a href="../links/links.htm">Links</a></p>
+	</div>
+	<!-- End Footer --></div>
+<!-- End Container -->
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
